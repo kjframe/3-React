@@ -43,3 +43,27 @@ const things = [
         points: 6
     }
 ];
+
+// 1)
+// const myFavoriteThings = things.filter((thing) => thing.favorite === true);
+// console.log(myFavoriteThings);
+
+// 2)
+// const thingsWithOverFiftyPoints = things.filter((thing) => thing.points > 50);
+// console.log(thingsWithOverFiftyPoints);
+
+// 3)
+// const selectThingByID = (id) => {
+//     return things.find((thing) => thing.id === id);
+// };
+
+// const selectedThing = selectThingByID(2);
+// console.log(selectedThing);
+
+// CHALLENGE
+// const selectThingByID = (id) => {
+//     return things.find((thing) => thing.id === id);
+// };
+
+// const selectedThing = selectThingByID(3);
+// console.log(selectedThing);
